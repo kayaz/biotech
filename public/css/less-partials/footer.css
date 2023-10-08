@@ -1,0 +1,10 @@
+#footer {
+  border-top: 1px solid #f4f4f4;
+  padding: 10px 0;
+}
+#footer p,
+#footer a {
+  font-size: 13px;
+  color: #909090;
+}
+/*# sourceMappingURL=footer.css.map */
