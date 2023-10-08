@@ -146,13 +146,13 @@ svg path.bg-blue {
       color: #fff;
     }
   }
-  &.btn-theme-red {
-    background: #a92020;
-    border-color: #a92020;
+  &.btn-theme-green {
+    background: var(--color-primary-green);
+    border-color: var(--color-primary-green);
     color: #fff;
     &:hover {
-      background: #c73636;
-      border-color: #c73636;
+      background: var(--color-primary-green-hover);
+      border-color: var(--color-primary-green-hover);
       color: #fff;
     }
   }
@@ -358,28 +358,7 @@ svg path.bg-blue {
 /* Technologia
 ================================================== */
 #tech {
-  .tech-header {
-    padding: 100px 0;
-    background-color: var(--color-primary-blue);
-    background-image: url("../images/technology_bg.jpg");
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-
-    .tech-apla {
-      background: white;
-      padding: 60px;
-      border-radius: 3px;
-      color: var(--color-primary-blue);
-      h1 {
-        font-size: 48px;
-        font-weight: 700;
-        margin-bottom: 25px;
-      }
-    }
-  }
-  .tech-text, .tech-apla {
+  .tech-text, .page-header-apla {
     p {
       font-size: 20px;
       line-height: 36px;
@@ -395,6 +374,121 @@ svg path.bg-blue {
   section {
     padding-bottom: 130px;
     margin-top: -50px;
+  }
+  .page-header {
+    background-image: url("../images/technology_bg.jpg");
+  }
+}
+
+.page-header {
+  padding: 100px 0;
+  background-color: var(--color-primary-blue);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+
+  .page-header-apla {
+    background: white;
+    padding: 60px;
+    border-radius: 3px;
+    color: var(--color-primary-blue);
+    h1 {
+      font-size: 48px;
+      font-weight: 700;
+      margin-bottom: 25px;
+    }
+  }
+}
+
+#about {
+  .page-header {
+    background-image: url("../images/about_bg.jpg");
+  }
+}
+
+#team {
+  padding: 100px;
+
+  .person {
+    margin-top: 80px;
+    .hex {
+      width: 190px;
+      height: auto;
+      margin: 0 auto;
+      display: block;
+    }
+
+    p {
+      font-size: 14px;
+      line-height: normal;
+      padding: 0 30px;
+    }
+
+    h3 {
+      font-weight: 600;
+      color: var(--color-primary-blue);
+      font-size: 26px;
+    }
+
+    span {
+      color: var(--color-primary-green);
+      font-size: 18px;
+    }
+  }
+
+  .person-square {
+    margin-top: 30px;
+    padding: 15px;
+    border: 1px solid #ececec;
+    border-radius: 6px;
+    img {
+      border-radius: 3px;
+    }
+  }
+}
+
+#movie-cta {
+  position: relative;
+  .movie-bg {
+    height: 570px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background: #022153;
+  }
+  .container {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+  }
+
+  h2 {
+    color: white;
+  }
+
+  p {
+    color: white;
+    font-size: 18px;
+    line-height: 36px;
+  }
+
+  video {
+    width: 100%;
+    height: auto;
+    opacity: 0.1;
+  }
+}
+
+#partners {
+  padding: 100px 0;
+  .partner {
+    padding-top: 80px;
   }
 }
 

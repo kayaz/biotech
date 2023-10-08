@@ -6,11 +6,11 @@
 
 @section('content')
 <div id="tech">
-    <div class="tech-header">
+    <div class="page-header">
         <div class="container">
             <div class="row">
                 <div class="col-6">
-                    <div class="tech-apla">
+                    <div class="page-header-apla">
                         <h1>Nano<span class="text-green">emulsje</span></h1>
                         <p>Są najbardziej zaawansowanymi systemami dostarczania substancji biologicznie czynnych (witamin, polimerów, polifenoli, czy też kannabinoidów). Zastosowanie nanoemulsji w pielęgnacji skóry umożliwia dostarczanie substancji aktywnych do głębszych jej warstw i efektywniejsze działanie pielęgnacyjne. Nasz autorski system dostarczania surowców kosmetycznych InBioNano jest biokompatybilny, biodegradowalny i przyjazny środowisku.</p>
                     </div>
@@ -73,7 +73,7 @@
                         <p>Zaproponowana formulacja wykazuje potencjał do znacznego zwiększenia rozpuszczalności i skuteczności działania związków słabo rozpuszczalnych w wodzie. Wynika to ze zwiększonego stosunku powierzchni do objętości nanoemulsji, mniejszego rozmiaru cząstek i ich większą mobilnością, a także zwiększoną stabilnością i ochroną przed przedwczesną degradacją.</p>
                         <p>&nbsp;</p>
                         <p>Co ważne, proponowane przez nas nanoemulsje zostały wytworzone w oparciu o najnowsze trendy „zero waste”, w dostępie do zrównoważonych materiałów pochodzących ze źródeł odnawialnych.</p>
-                        <a href="" target="_blank" class="btn btn-theme btn-theme-blue btn-md mt-4">NASZE PRODUKTY</a>
+                        <a href="" target="_blank" class="btn btn-theme btn-theme-blue btn-md mt-5">NASZE PRODUKTY</a>
                     </div>
                 </div>
             </div>

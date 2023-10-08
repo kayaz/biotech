@@ -168,14 +168,14 @@ svg path.bg-blue {
   border-color: var(--color-primary-blue-hover);
   color: #fff;
 }
-.btn-theme.btn-theme-red {
-  background: #a92020;
-  border-color: #a92020;
+.btn-theme.btn-theme-green {
+  background: var(--color-primary-green);
+  border-color: var(--color-primary-green);
   color: #fff;
 }
-.btn-theme.btn-theme-red:hover {
-  background: #c73636;
-  border-color: #c73636;
+.btn-theme.btn-theme-green:hover {
+  background: var(--color-primary-green-hover);
+  border-color: var(--color-primary-green-hover);
   color: #fff;
 }
 /* Slider
@@ -611,28 +611,8 @@ header nav ul {
 }
 /* Technologia
 ================================================== */
-#tech .tech-header {
-  padding: 100px 0;
-  background-color: var(--color-primary-blue);
-  background-image: url("../images/technology_bg.jpg");
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-}
-#tech .tech-header .tech-apla {
-  background: white;
-  padding: 60px;
-  border-radius: 3px;
-  color: var(--color-primary-blue);
-}
-#tech .tech-header .tech-apla h1 {
-  font-size: 48px;
-  font-weight: 700;
-  margin-bottom: 25px;
-}
 #tech .tech-text p,
-#tech .tech-apla p {
+#tech .page-header-apla p {
   font-size: 20px;
   line-height: 36px;
   color: #2c2c2c;
@@ -644,6 +624,105 @@ header nav ul {
 #tech section {
   padding-bottom: 130px;
   margin-top: -50px;
+}
+#tech .page-header {
+  background-image: url("../images/technology_bg.jpg");
+}
+.page-header {
+  padding: 100px 0;
+  background-color: var(--color-primary-blue);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+.page-header .page-header-apla {
+  background: white;
+  padding: 60px;
+  border-radius: 3px;
+  color: var(--color-primary-blue);
+}
+.page-header .page-header-apla h1 {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+#about .page-header {
+  background-image: url("../images/about_bg.jpg");
+}
+#team {
+  padding: 100px;
+}
+#team .person {
+  margin-top: 80px;
+}
+#team .person .hex {
+  width: 190px;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+}
+#team .person p {
+  font-size: 14px;
+  line-height: normal;
+  padding: 0 30px;
+}
+#team .person h3 {
+  font-weight: 600;
+  color: var(--color-primary-blue);
+  font-size: 26px;
+}
+#team .person span {
+  color: var(--color-primary-green);
+  font-size: 18px;
+}
+#team .person-square {
+  margin-top: 30px;
+  padding: 15px;
+  border: 1px solid #ececec;
+  border-radius: 6px;
+}
+#team .person-square img {
+  border-radius: 3px;
+}
+#movie-cta {
+  position: relative;
+}
+#movie-cta .movie-bg {
+  height: 570px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background: #022153;
+}
+#movie-cta .container {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+}
+#movie-cta h2 {
+  color: white;
+}
+#movie-cta p {
+  color: white;
+  font-size: 18px;
+  line-height: 36px;
+}
+#movie-cta video {
+  width: 100%;
+  height: auto;
+  opacity: 0.1;
+}
+#partners {
+  padding: 100px 0;
+}
+#partners .partner {
+  padding-top: 80px;
 }
 /* Pageheader
 ================================================== */

@@ -12,23 +12,23 @@
                                 <a href="">@lang('cms.menu-news')</a>
                             </li>
                             <li class="nav-menu-item">
-                                <a href="">@lang('cms.menu-about')</a>
+                                <a href="{{ route('about') }}">@lang('cms.menu-about')</a>
                             </li>
                             <li class="nav-menu-item">
                                 <a href="">@lang('cms.menu-resources')</a>
                             </li>
                             <li class="nav-menu-item">
-                                <a href="">@lang('cms.menu-technology')</a>
+                                <a href="{{ route('technology') }}">@lang('cms.menu-technology')</a>
                             </li>
                             <li class="nav-menu-item">
-                                <a href="">@lang('cms.menu-contact')</a>
+                                <a href="{{ route('contact') }}">@lang('cms.menu-contact')</a>
                             </li>
 
                             <li class="nav-lang-item">
-                                <a href="">PL</a>
+                                <a href="{{ changeLocaleUrl(Route::current(), 'pl') }}">PL</a>
                             </li>
                             <li class="nav-lang-item">
-                                <a href="">EN</a>
+                                <a href="{{ changeLocaleUrl(Route::current(), 'en') }}">EN</a>
                             </li>
                         </ul>
                     </nav>

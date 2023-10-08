@@ -26,6 +26,7 @@ Route::group(['namespace' => 'Front', 'prefix' => '{locale?}', 'where' => ['loca
     });
 
     Route::get('technologia', 'Technology\IndexController@index')->name('technology');
+    Route::get('o-nas', 'About\IndexController@index')->name('about');
 
     // Inline
     Route::group(['prefix'=>'/inline', 'as' => 'front.inline.'], function() {

@@ -15,7 +15,7 @@
                             <a href="{{ route('front.news.index') }}">@lang('cms.menu-news')</a>
                         </li>
                         <li class="nav-menu-item">
-                            <a href="">@lang('cms.menu-about')</a>
+                            <a href="{{ route('about') }}">@lang('cms.menu-about')</a>
                         </li>
                         <li class="nav-menu-item">
                             <a href="">@lang('cms.menu-resources')</a>
