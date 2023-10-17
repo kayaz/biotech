@@ -20,7 +20,7 @@ Route::group(['namespace' => 'Front', 'prefix' => '{locale?}', 'where' => ['loca
     Route::get('kontakt', 'ContactController@index')->name('contact');
     Route::post('kontakt', 'ContactController@form')->name('contact.form');
 
-    Route::group(['prefix'=>'/aktualnosci/', 'as' => 'front.news.'], function() {
+    Route::group(['prefix'=>'/nauka/', 'as' => 'front.news.'], function() {
         Route::get('/',         'News\IndexController@index')->name('index');
         Route::get('/{slug}',   'News\IndexController@show')->name('show');
     });

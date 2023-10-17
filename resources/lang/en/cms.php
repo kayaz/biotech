@@ -1,9 +1,9 @@
 <?php
 
 return array (
-    'menu-news' => 'News',
+    'menu-news' => 'Science',
     'menu-about' => 'About Us',
-    'menu-resources' => 'Surowce',
+    'menu-products' => 'Products',
     'menu-technology' => 'Technology',
     'menu-contact' => 'Contact',
     'form-title' => 'Masz pytania? <span class="text-green">Napisz do nas!</span>',
