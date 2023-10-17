@@ -9,14 +9,16 @@
         <div class="page-header">
             <div class="container">
                 <div class="row">
-                    <div class="col-6 offset-6">
+                    <div class="col-7 offset-5">
                         <div class="page-header-apla">
                             <h1>Invention<span class="text-green">Bio</span></h1>
-                            <p>To firma biotechnologiczna z wysokim potencjałem na bycie największą biorafinerią w Polsce. Tworzy ją młody, dynamiczny zespół, w którego skład wchodzą biotechnolodzy, mikrobiolodzy, chemicy i biochemicy.</p>
+                            <p>Jesteśmy wiodącą firmą w rozwoju i produkcji systemów dostarczania substancji aktywnych w różnych obszarach zastosowań. Nasze systemy zwiększają wydajność, bezpieczeństwo i zrównoważony rozwój produktów kosmetycznych.</p>
                             <p>&nbsp;</p>
-                            <p>W swoim portfolio posiadamy produkty otrzymywane na drodze biokonwersji, a dokładnie w procesie fermentacji z wykorzystaniem unikatowych bakterii i drożdży o właściwościach probiotycznych. Korzystając z zasobów polskich pól tworzymy innowacyjne materiały paszowe i mieszanki paszowe uzupełniające na bazie rzepaku, które zapewniają pożądane rezultaty w żywieniu zwierząt.</p>
+                            <p>Naszą siłą napędową są innowacje, które znajdują odzwierciedlenie w badaniach naukowych i tworzonej własności intelektualnej o potencjale produkcyjnym. Tworzymy i ciągle rozwijamy gamę nośników o różnych właściwościach i funkcjonalnościach. Szeroko współpracujemy z siecią międzynarodowych uniwersytetów i firm, co umożliwia nam dostęp do najnowszych osiągnięć naukowych i technologicznych w tej dziedzinie.</p>
                             <p>&nbsp;</p>
-                            <p>Ponadto produkujemy surowce kosmetyczne wykorzystując metody przyjazne środowisku, zgodnie z najnowszymi trendami i wynikami badań naukowych publikowanych w renomowanych czasopismach. </p>
+                            <p>Innowacja oznacza dla nas więcej niż rozwój nowatorskich materiałów lub produktów. Wyznaczamy standardy także w zakresie usług zorientowanych na klienta, nowych modeli biznesowych i efektywności procesów. Wspieramy wszelkiego rodzaju innowacje, które tworzą nowe wartości – czy to w zakresie wzrostu gospodarczego, korzyści społecznych i środowiskowych, czy też, najlepiej, połączenia ich wszystkich.</p>
+                            <p>&nbsp;</p>
+                            <p>Nasza koncepcja otwartych innowacji stale integruje wiedzę z niezależnych źródeł: nowe perspektywy i wczesne uwzględnienie potrzeb klientów, które mogą zmniejszyć ryzyko i stworzyć nowe produkty i usługi.</p>
                         </div>
                     </div>
                 </div>
@@ -30,6 +32,8 @@
                 <div class="col-12 text-center text-blue pt-5 pb-3">
                     <h2>Nasze <span class="text-green">wartości</span></h2>
                 </div>
+            </div>
+            <div class="row">
                 <div class="col-4">
                     <div class="box-icon">
                         <div class="box-icon-image">
@@ -257,65 +261,6 @@
                             </g>
                         </svg>
 
-                        <span>mgr</span>
-                        <h3>Monika Ostrowska</h3>
-                        <p>(Specjalista ds. biotechnologii / Koordynator badań aplikacyjnych)</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row justify-content-center mt-5 pt-5">
-                <div class="col-3">
-                    <div class="person person-square text-center">
-                        <img src="https://bioxlab-next-js.vercel.app/assets/img/team/team-thumb-01.jpg" alt="" class="mb-4">
-                        <span>prof. dr hab. inż.</span>
-                        <h3>Marcin Łukaszewicz</h3>
-                        <p>(Prezes Zarządu)</p>
-                    </div>
-                </div>
-                <div class="col-3">
-                    <div class="person person-square text-center">
-                        <img src="https://bioxlab-next-js.vercel.app/assets/img/team/team-thumb-02.jpg" alt="" class="mb-4">
-                        <span>dr</span>
-                        <h3>Agnieszka Lewińska</h3>
-                        <p>(Dyrektor R&D)</p>
-                    </div>
-                </div>
-                <div class="col-3">
-                    <div class="person person-square text-center">
-                        <img src="https://bioxlab-next-js.vercel.app/assets/img/team/team-thumb-05.jpg" alt="" class="mb-4">
-                        <span>dr inż.</span>
-                        <h3>Marta Domżał-Kędzia</h3>
-                        <p>(Kierownik R&D)</p>
-                    </div>
-                </div>
-                <div class="col-3">
-                    <div class="person person-square text-center">
-                        <img src="https://bioxlab-next-js.vercel.app/assets/img/team/team-thumb-04.jpg" alt="" class="mb-4">
-                        <span>dr</span>
-                        <h3>Anna Filipiak-Szok</h3>
-                        <p>(Kierownik Laboratorium)</p>
-                    </div>
-                </div>
-                <div class="col-3">
-                    <div class="person person-square text-center">
-                        <img src="https://bioxlab-next-js.vercel.app/assets/img/team/team-thumb-06.jpg" alt="" class="mb-4">
-                        <span>mgr</span>
-                        <h3>Fabian Kuczyński</h3>
-                        <p>(Kierownik Produkcji)</p>
-                    </div>
-                </div>
-                <div class="col-3">
-                    <div class="person person-square text-center">
-                        <img src="https://bioxlab-next-js.vercel.app/assets/img/team/team-thumb-04.jpg" alt="" class="mb-4">
-                        <span>mgr</span>
-                        <h3>Magdalena Baranowska</h3>
-                        <p>(Pełnomocnik ds. GMP+ i Jakości / Kierownik Zespołu ds. Bezpieczeństwa Żywności)</p>
-                    </div>
-                </div>
-                <div class="col-3">
-                    <div class="person person-square text-center">
-                        <img src="https://bioxlab-next-js.vercel.app/assets/img/team/team-thumb-02.jpg" alt="" class="mb-4">
                         <span>mgr</span>
                         <h3>Monika Ostrowska</h3>
                         <p>(Specjalista ds. biotechnologii / Koordynator badań aplikacyjnych)</p>

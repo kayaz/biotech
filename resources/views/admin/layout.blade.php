@@ -102,6 +102,13 @@
                                 </span> Klienci</a>
                         </li>
 
+                        <li {{ Request::routeIs('admin.product.*') ? 'class=active' : '' }}>
+                            <a href="{{ route('admin.product.index') }}">
+                                <span class="menu-bullet">
+                                    <span class="bullet bullet-dot"></span>
+                                </span> Produkty</a>
+                        </li>
+
                     </ul>
                 </li>
             </ul>

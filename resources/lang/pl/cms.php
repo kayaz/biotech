@@ -12,5 +12,6 @@ return array (
     'form-label-phone' => 'Telefon',
     'form-label-message' => 'Treść wiadomości',
     'form-submit-button' => 'Wyślij wiadomość',
-    'footer-text' => 'Tekst w stopce PL'
+    'footer-text' => 'Tekst w stopce PL',
+    'our-product' => 'Nasze produkty'
 );

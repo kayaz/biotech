@@ -305,8 +305,8 @@ svg path.bg-blue {
   .gallery-top {
     background-color: var(--color-primary-blue);
     background-image: url('../images/gallery-top-left.png'), url('../images/gallery-top-right.png');
-    background-repeat: no-repeat, no-repeat; /* Ensure that the images don't repeat */
-    background-position: left bottom, right bottom; /* Position the images at left bottom and right bottom */
+    background-repeat: no-repeat, no-repeat;
+    background-position: left bottom, right bottom;
     padding: 100px 0 250px;
     text-align: center;
     h2 {
@@ -491,6 +491,91 @@ svg path.bg-blue {
     padding-top: 80px;
   }
 }
+
+#products {
+  padding: 120px 0 70px;
+  background-color: var(--bg-blue-light);
+  background-image: url('../images/blue-light-bgl.png'), url('../images/blue-light-bgr.png');
+  background-repeat: no-repeat, no-repeat;
+  background-position: left top, right top;
+  overflow: hidden;
+  h2 {
+    font-size: 48px;
+    color: var(--color-primary-blue);
+    margin-bottom: 35px;
+  }
+
+  .product-container {
+    padding: 0 10px 50px;
+  }
+
+  .product {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    -webkit-box-shadow: 0 5px 5px -3px rgba(0,0,0,0.19);
+    -moz-box-shadow: 0 5px 5px -3px rgba(0,0,0,0.19);
+    box-shadow: 0 5px 5px -3px rgba(0,0,0,0.19);
+    position: relative;
+    transition: all 200ms linear;
+    bottom: 0;
+    img {
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+    }
+    .product-desc {
+      background: white;
+      padding: 30px;
+      border-bottom-left-radius: 5px;
+      border-bottom-right-radius: 5px;
+      h2 {
+        font-size: 35px;
+        margin-bottom: 15px;
+        color: var(--color-primary-green);
+      }
+      p {
+        color: var(--color-primary-blue);
+        font-size: 19px;
+        line-height: 25px;
+        font-weight: 500;
+      }
+    }
+    &:hover {
+      bottom: 5px;
+      -webkit-box-shadow: 0 9px 5px -3px rgba(0,0,0,0.19);
+      -moz-box-shadow: 0 9px 5px -3px rgba(0,0,0,0.19);
+      box-shadow: 0 9px 5px -3px rgba(0,0,0,0.19);
+    }
+  }
+
+  #productsCarousel {
+    margin-right: -700px;
+    .slick-arrow {
+      border: 0;
+      width: 48px;
+      height: 48px;
+      background: var(--color-primary-green);
+      border-radius: 3px;
+      line-height: normal;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      top: -85px;
+      i {
+        color: white;
+        font-size: 26px;
+      }
+      &.slick-prev {
+        left: 1420px;
+      }
+      &.slick-next {
+        left: 1480px;
+      }
+    }
+  }
+}
+
+@import "less-partials/slick";
 
 /* Pageheader
 ================================================== */

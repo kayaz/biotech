@@ -40,9 +40,29 @@
                             </g>
                         </svg>
 
-                        <svg data-depth="0.2" class="hex-small hex-small-top" xmlns="http://www.w3.org/2000/svg" width="187.7398" height="211.6796" viewBox="0 0 187.7398 211.6796"><path class="b bg-green" d="m0,61.1675v89.3446c0,5.8932,3.144,11.3387,8.2476,14.2852l77.3747,44.6723c5.1036,2.9466,11.3916,2.9466,16.4952,0l77.3747-44.6723c5.1036-2.9466,8.2476-8.3921,8.2476-14.2852V61.1675c0-5.8932-3.144-11.3387-8.2476-14.2852L102.1175,2.2099c-5.1036-2.9466-11.3916-2.9466-16.4952,0L8.2476,46.8822C3.144,49.8288,0,55.2743,0,61.1675Z"/></svg>
+                        <svg data-depth="0.2" class="hex-small hex-small-top" xmlns="http://www.w3.org/2000/svg" width="187.7398" height="211.6796" viewBox="0 0 187.7398 211.6796">
+                            <defs>
+                                <clipPath id="maskImage3" clipPathUnits="userSpaceOnUse">
+                                    <path class="b bg-green" d="m0,61.1675v89.3446c0,5.8932,3.144,11.3387,8.2476,14.2852l77.3747,44.6723c5.1036,2.9466,11.3916,2.9466,16.4952,0l77.3747-44.6723c5.1036-2.9466,8.2476-8.3921,8.2476-14.2852V61.1675c0-5.8932-3.144-11.3387-8.2476-14.2852L102.1175,2.2099c-5.1036-2.9466-11.3916-2.9466-16.4952,0L8.2476,46.8822C3.144,49.8288,0,55.2743,0,61.1675Z"/>
+                                </clipPath>
+                            </defs>
 
-                        <svg data-depth="0.2" class="hex-small hex-small-bottom" xmlns="http://www.w3.org/2000/svg" width="187.7398" height="211.6796" viewBox="0 0 187.7398 211.6796"><path class="b bg-green" d="m0,61.1675v89.3446c0,5.8932,3.144,11.3387,8.2476,14.2852l77.3747,44.6723c5.1036,2.9466,11.3916,2.9466,16.4952,0l77.3747-44.6723c5.1036-2.9466,8.2476-8.3921,8.2476-14.2852V61.1675c0-5.8932-3.144-11.3387-8.2476-14.2852L102.1175,2.2099c-5.1036-2.9466-11.3916-2.9466-16.4952,0L8.2476,46.8822C3.144,49.8288,0,55.2743,0,61.1675Z"/></svg>
+                            <g clip-path="url(#maskImage3)">
+                                <image width="auto" height="100%" x="0" y="0" fill="none" href="{{ asset('/images/small-hex-bg.jpg') }}" />
+                            </g>
+                        </svg>
+
+                        <svg data-depth="0.2" class="hex-small hex-small-bottom" xmlns="http://www.w3.org/2000/svg" width="187.7398" height="211.6796" viewBox="0 0 187.7398 211.6796">
+                            <defs>
+                                <clipPath id="maskImage3" clipPathUnits="userSpaceOnUse">
+                                    <path class="b bg-green" d="m0,61.1675v89.3446c0,5.8932,3.144,11.3387,8.2476,14.2852l77.3747,44.6723c5.1036,2.9466,11.3916,2.9466,16.4952,0l77.3747-44.6723c5.1036-2.9466,8.2476-8.3921,8.2476-14.2852V61.1675c0-5.8932-3.144-11.3387-8.2476-14.2852L102.1175,2.2099c-5.1036-2.9466-11.3916-2.9466-16.4952,0L8.2476,46.8822C3.144,49.8288,0,55.2743,0,61.1675Z"/>
+                                </clipPath>
+                            </defs>
+
+                            <g clip-path="url(#maskImage3)">
+                                <image width="auto" height="100%" x="0" y="0" fill="none" href="{{ asset('/images/small-hex-bg-2.jpg') }}" />
+                            </g>
+                        </svg>
                     </div>
                 </div>
                 <div class="col-6 d-flex align-items-center justify-content-center">
@@ -81,6 +101,96 @@
         </div>
     </div>
 
+    <div id="products" class="bg-blue-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2>@lang('cms.our-product')</h2>
+                </div>
+            </div>
+            <div id="productsCarousel" class="row">
+                <div class="col-4">
+                    <div class="product-container">
+                        <a href="">
+                            <div class="product">
+                                <img src="https://placehold.co/600x400" alt="">
+                                <div class="product-desc">
+                                    <h2>InBioNano A</h2>
+                                    <p>Skuteczna walka ze zmarszczkami mimicznymi</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="product-container">
+                        <a href="">
+                            <div class="product">
+                                <img src="https://placehold.co/600x400" alt="">
+                                <div class="product-desc">
+                                    <h2>InBioNano A</h2>
+                                    <p>Skuteczna walka ze zmarszczkami mimicznymi</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="product-container">
+                        <a href="">
+                            <div class="product">
+                                <img src="https://placehold.co/600x400" alt="">
+                                <div class="product-desc">
+                                    <h2>InBioNano A</h2>
+                                    <p>Skuteczna walka ze zmarszczkami mimicznymi</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="product-container">
+                        <a href="">
+                            <div class="product">
+                                <img src="https://placehold.co/600x400" alt="">
+                                <div class="product-desc">
+                                    <h2>InBioNano A</h2>
+                                    <p>Skuteczna walka ze zmarszczkami mimicznymi</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="product-container">
+                        <a href="">
+                            <div class="product">
+                                <img src="https://placehold.co/600x400" alt="">
+                                <div class="product-desc">
+                                    <h2>InBioNano A</h2>
+                                    <p>Skuteczna walka ze zmarszczkami mimicznymi</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="product-container">
+                        <a href="">
+                            <div class="product">
+                                <img src="https://placehold.co/600x400" alt="">
+                                <div class="product-desc">
+                                    <h2>InBioNano A</h2>
+                                    <p>Skuteczna walka ze zmarszczkami mimicznymi</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <div id="gallery">
         <div class="gallery-top">
             <h2>Nasze laboratorium</h2>
@@ -111,3 +221,13 @@
         </div>
     </div>
 @endsection
+@push('scripts')
+    <script src="{{ asset('/js/slick.min.js') }}" charset="utf-8"></script>
+    <script type="text/javascript">
+        $('#productsCarousel').slick({
+            infinite: true,
+            slidesToShow: 4,
+            slidesToScroll: 1
+        });
+    </script>
+@endpush

@@ -34,7 +34,8 @@ Route::group([
         'image' => 'Gallery\ImageController',
         'galleryVideo' => 'Gallery\VideoController',
         'slider' => 'Slider\IndexController',
-        'box'=> 'Box\IndexController'
+        'box'=> 'Box\IndexController',
+        'product'=> 'Product\IndexController'
     ]);
 
     Route::get('dictionary/{slug}/{locale}/edit', 'Dictionary\IndexController@edit')->name('dictionary.edit');
@@ -46,29 +47,7 @@ Route::group([
         Route::get('/create', 'IndexController@create')->name('create');
         Route::get('/{client}', 'IndexController@show')->name('show');
 
-        Route::get('{client}/calendar', 'CalendarController@index')->name('calendar');
         Route::get('{client}/rodo', 'RodoController@show')->name('rodo');
-
-        // Client files
-        Route::get('{client}/files', 'FileController@show')->name('files');
-        Route::post('{client}/files', 'FileController@store')->name('files.store');
-        Route::post('{client}/files/create', 'FileController@create')->name('files.create');
-        Route::delete('{client}/files/{clientFile}', 'FileController@destroy')->name('file.destroy');
-
-        // Client file description
-        Route::post('file-desc/{clientFile}/form', 'FileController@form')->name('file.desc.form');
-        Route::post('file-desc/{clientFile}', 'FileController@storeDesc')->name('file.desc.store');
-        Route::delete('file-desc/{clientFile}', 'FileController@destroyDesc')->name('file.desc.destroy');
-
-        // Client notes
-        Route::get('{client}/notes', 'NoteController@show')->name('notes');
-        Route::post('{client}/notes', 'NoteController@store')->name('notes.store');
-        Route::put('{client}/notes/{note}', 'NoteController@update')->name('notes.update');
-        Route::delete('{client}/notes/{note}', 'NoteController@destroy')->name('notes.destroy');
-
-        // Client calendar
-        Route::get('{client}/events', 'CalendarController@show')->name('events.show');
-        Route::post('{client}/events/form', 'CalendarController@create')->name('events.create');
 
         // Client chat
         Route::group(['prefix'=>'{client}/chat', 'as' => 'chat.'], function () {

@@ -4,7 +4,7 @@
             <div class="col-4">
                 <div id="logo">
                     <a href="/" title="{{ settings()->get("page_logo_title") }}z">
-                        <img src="{{ asset('/images/inventionbio-logo.svg') }}" alt="{{ settings()->get("page_logo_alt") }}">
+                        <img src="{{ asset('/images/logo.png') }}" alt="{{ settings()->get("page_logo_alt") }}">
                     </a>
                 </div>
             </div>
