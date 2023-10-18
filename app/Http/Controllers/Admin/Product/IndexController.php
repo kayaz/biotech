@@ -49,8 +49,6 @@ class IndexController extends Controller
 
     public function store(ProductFormRequest $request)
     {
-        dd($request);
-
         $product = $this->repository->create($request->validated());
 
         if ($request->hasFile('file')) {
@@ -60,23 +58,38 @@ class IndexController extends Controller
         return redirect(route('admin.product.index'))->with('success', 'Nowy produkt dodany');
     }
 
-    public function show($id)
+    public function edit(int $id)
     {
-        //
+        if(request()->get('lang')) {
+            app()->setLocale(request()->get('lang'));
+        }
+
+        return view('admin.product.form', [
+            'entry' => Product::find($id),
+            'cardTitle' => 'Edytuj produkt',
+            'backButton' => route('admin.product.index')
+        ]);
     }
 
-    public function edit($id)
+    public function update(ProductFormRequest $request, int $id)
     {
-        //
+        if(request()->get('lang')) {
+            app()->setLocale(request()->get('lang'));
+        }
+
+        $product = $this->repository->find($id);
+        $this->repository->update($request->validated(), $product);
+
+        if ($request->hasFile('file')) {
+            $this->service->upload($request->name, $request->file('file'), $product, true);
+        }
+
+        return redirect(route('admin.product.index'))->with('success', 'Produkt zaktualizowany');
     }
 
-    public function update(Request $request, $id)
+    public function destroy(int $id)
     {
-        //
-    }
-
-    public function destroy($id)
-    {
-        //
+        $this->repository->delete($id);
+        return response()->json('Deleted');
     }
 }

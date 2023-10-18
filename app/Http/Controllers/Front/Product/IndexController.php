@@ -10,9 +10,17 @@ use App\Models\Page;
 
 class IndexController extends Controller
 {
-    public function show(Product $product)
+    public function index()
     {
         $page = Page::find(5);
-        return view('front.product.show', compact('page'));
+        $products = Product::orderBy('sort', 'ASC')->get();
+        return view('front.product.index', compact('page', 'products'));
+    }
+
+    public function show($language, string $slug)
+    {
+        $page = Page::find(5);
+        $product = Product::whereSlug($slug)->first();
+        return view('front.product.show', compact('page', 'product'));
     }
 }

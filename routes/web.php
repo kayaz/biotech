@@ -26,6 +26,7 @@ Route::group(['namespace' => 'Front', 'prefix' => '{locale?}', 'where' => ['loca
     });
 
     Route::group(['prefix'=>'/produkty/', 'as' => 'products.'], function() {
+        Route::get('/',         'Product\IndexController@index')->name('index');
         Route::get('/{slug}',   'Product\IndexController@show')->name('show');
     });
 

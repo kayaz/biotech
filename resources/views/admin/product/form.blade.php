@@ -55,7 +55,7 @@
                                     @include('form-elements.html-input-text', ['label' => 'Atrybut ALT zdjęcia', 'name' => 'file_alt', 'value' => $entry->file_alt])
                                 </div>
                                 <div class="row w-100 form-group">
-                                    @include('form-elements.textarea-fullwidth', ['label' => 'Treść', 'name' => 'content', 'value' => $entry->text, 'rows' => 21, 'class' => 'tinymce', 'required' => 1])
+                                    @include('form-elements.textarea-fullwidth', ['label' => 'Treść', 'name' => 'text', 'value' => $entry->text, 'rows' => 21, 'class' => 'tinymce', 'required' => 1])
                                 </div>
                             </div>
                         </div>

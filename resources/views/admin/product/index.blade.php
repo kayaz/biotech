@@ -28,7 +28,7 @@
                         <tbody class="content">
                         @foreach ($list as $item)
                             <tr id="recordsArray_{{ $item->id }}">
-                                <td>{{ $item->title }}</td>
+                                <td>{{ $item->name }}</td>
                                 <td>{{ $item->desc }}</td>
                                 <td>{{ $item->created_at }}</td>
                                 <td>{{ $item->updated_at }}</td>

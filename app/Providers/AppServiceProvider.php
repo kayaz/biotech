@@ -8,6 +8,7 @@ use App\Models\File;
 use App\Models\Gallery;
 use App\Models\Image;
 use App\Models\Page;
+use App\Models\Product;
 use App\Models\Settings;
 use App\Models\Slider;
 use App\Models\Url;
@@ -20,6 +21,7 @@ use App\Observers\FileObserver;
 use App\Observers\GalleryObserver;
 use App\Observers\ImageObserver;
 use App\Observers\PageObserver;
+use App\Observers\ProductObserver;
 use App\Observers\SliderObserver;
 use App\Observers\UrlObserver;
 
@@ -85,7 +87,7 @@ class AppServiceProvider extends ServiceProvider
         Article::observe(ArticleObserver::class);
         Slider::observe(SliderObserver::class);
         Boxes::observe(BoxObserver::class);
-        Article::observe(ArticleObserver::class);
+        Product::observe(ProductObserver::class);
         Page::observe(PageObserver::class);
         Url::observe(UrlObserver::class);
         Image::observe(ImageObserver::class);
