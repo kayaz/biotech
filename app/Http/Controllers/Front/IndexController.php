@@ -8,6 +8,7 @@ use App\Http\Controllers\Controller;
 use App\Models\Article;
 use App\Models\Boxes;
 use App\Models\Inline;
+use App\Models\Product;
 use App\Models\Slider;
 use App\Models\Image;
 
@@ -19,13 +20,15 @@ class IndexController extends Controller
         $slider = Slider::orderBy('sort')->get();
         $boxes = Boxes::orderBy('sort')->get();
         $images = Image::where('gallery_id', 1)->orderBy('sort')->get();
+        $products = Product::orderBy('sort', 'ASC')->get();
 
         return view('front.homepage.index', [
             'array' => Inline::getElements(1),
             'articles' => $articles,
             'slider' => $slider,
             'boxes' => $boxes,
-            'images' => $images
+            'images' => $images,
+            'products' => $products
             ]);
     }
 }

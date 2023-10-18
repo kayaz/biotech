@@ -15,10 +15,13 @@
                                 <a href="{{ route('about') }}">@lang('cms.menu-about')</a>
                             </li>
                             <li class="nav-menu-item">
-                                <a href="">@lang('cms.menu-resources')</a>
+                                <a href="{{ route('technology') }}">@lang('cms.menu-technology')</a>
                             </li>
                             <li class="nav-menu-item">
-                                <a href="{{ route('technology') }}">@lang('cms.menu-technology')</a>
+                                <a href="{{ route('products.index') }}">@lang('cms.menu-products')</a>
+                            </li>
+                            <li class="nav-menu-item">
+                                <a href="{{ route('front.news.index') }}">@lang('cms.menu-news')</a>
                             </li>
                             <li class="nav-menu-item">
                                 <a href="{{ route('contact') }}">@lang('cms.menu-contact')</a>

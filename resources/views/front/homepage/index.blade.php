@@ -109,84 +109,21 @@
                 </div>
             </div>
             <div id="productsCarousel" class="row">
-                <div class="col-4">
-                    <div class="product-container">
-                        <a href="">
-                            <div class="product">
-                                <img src="https://placehold.co/600x400" alt="">
-                                <div class="product-desc">
-                                    <h2>InBioNano A</h2>
-                                    <p>Skuteczna walka ze zmarszczkami mimicznymi</p>
+                @foreach($products as $p)
+                    <div class="col-4">
+                        <div class="product-container">
+                            <a href="{{ route('products.show', $p->slug) }}">
+                                <div class="product">
+                                    <img src="{{ asset('/uploads/products/thumbs/'.$p->file) }}" alt="{{ $p->file_alt }}">
+                                    <div class="product-desc">
+                                        <h2>{{ $p->name }}</h2>
+                                        <p>{{ $p->desc }}</p>
+                                    </div>
                                 </div>
-                            </div>
-                        </a>
+                            </a>
+                        </div>
                     </div>
-                </div>
-                <div class="col-4">
-                    <div class="product-container">
-                        <a href="">
-                            <div class="product">
-                                <img src="https://placehold.co/600x400" alt="">
-                                <div class="product-desc">
-                                    <h2>InBioNano A</h2>
-                                    <p>Skuteczna walka ze zmarszczkami mimicznymi</p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-4">
-                    <div class="product-container">
-                        <a href="">
-                            <div class="product">
-                                <img src="https://placehold.co/600x400" alt="">
-                                <div class="product-desc">
-                                    <h2>InBioNano A</h2>
-                                    <p>Skuteczna walka ze zmarszczkami mimicznymi</p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-4">
-                    <div class="product-container">
-                        <a href="">
-                            <div class="product">
-                                <img src="https://placehold.co/600x400" alt="">
-                                <div class="product-desc">
-                                    <h2>InBioNano A</h2>
-                                    <p>Skuteczna walka ze zmarszczkami mimicznymi</p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-4">
-                    <div class="product-container">
-                        <a href="">
-                            <div class="product">
-                                <img src="https://placehold.co/600x400" alt="">
-                                <div class="product-desc">
-                                    <h2>InBioNano A</h2>
-                                    <p>Skuteczna walka ze zmarszczkami mimicznymi</p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-4">
-                    <div class="product-container">
-                        <a href="">
-                            <div class="product">
-                                <img src="https://placehold.co/600x400" alt="">
-                                <div class="product-desc">
-                                    <h2>InBioNano A</h2>
-                                    <p>Skuteczna walka ze zmarszczkami mimicznymi</p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
+                @endforeach
             </div>
         </div>
     </div>
