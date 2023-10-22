@@ -93,7 +93,7 @@
                         <p class="text-justify">Oferujemy produkty i zrównoważone rozwiązania dla branży „beauty”. Obsługujemy szeroką gamę rynków i zastosowań dzięki naszym innowacyjnym składnikom, technologiom i usługom. W naszym portfolio znajdują się składniki aktywne enkapsulowane w systemy dostarczania, znajdujące zastosowanie w kosmetykach do pielęgnacji, oczyszczania skóry, ochrony przeciwsłonecznej, kosmetyków kolorowych oraz pielęgnacji i oczyszczania włosów.</p>
                         <p>&nbsp;</p>
                         <p class="text-justify">Oferujemy również rozwiązania w zakresie naturalnej konserwacji i stabilności produktu. Nasi klienci korzystający z naszego portfolio, mogą ulepszyć swoje produkty co wpłynie na poprawę funkcjonalności produktu.</p>
-                        <a href="header.blade.php" class="btn btn-theme btn-theme-blue btn-md mt-5">NASZE PRODUKTY</a>
+                        <a href="{{ route('products.index') }}" class="btn btn-theme btn-theme-blue btn-md mt-5">NASZE PRODUKTY</a>
                     </div>
                 </div>
             </div>
