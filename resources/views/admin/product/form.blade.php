@@ -44,10 +44,10 @@
                                     <div class="row w-100 form-group">
                                         @include('form-elements.html-input-file', [
                                             'label' => 'Zdjęcie',
-                                            'sublabel' => '(wymiary: '.config('images.article.big_width').'px / '.config('images.article.big_height').'px)',
+                                            //'sublabel' => '(wymiary: '.config('images.article.big_width').'px / '.config('images.article.big_height').'px)',
                                             'name' => 'file',
                                             'file' => $entry->file,
-                                            'file_preview' => config('images.article.preview_file_path')
+                                            'file_preview' => 'uploads/products/thumbs/'
                                         ])
                                     </div>
                                 @endif

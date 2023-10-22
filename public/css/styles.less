@@ -50,7 +50,9 @@ h3 {
   font-size: 24px;
   font-weight: 500;
 }
-
+.text-justify {
+  text-align: justify !important;
+}
 
 @media (min-width: 1530px) {
   .container {
@@ -80,6 +82,10 @@ svg path.bg-green {
 }
 svg path.bg-blue {
   fill: var(--color-primary-blue);
+}
+
+section {
+  padding: 90px 0;
 }
 
 /* Fonty
@@ -412,6 +418,9 @@ svg path.bg-blue {
 
   .person {
     margin-top: 80px;
+    border: 1px solid #e6e6e6;
+    padding: 20px 15px;
+    border-radius: 5px;
     .hex {
       width: 190px;
       height: auto;
@@ -492,6 +501,19 @@ svg path.bg-blue {
   }
 }
 
+#products-header {
+  h2 {
+    font-size: 36px;
+  }
+  p {
+    font-size: 17px;
+    line-height: 31px;
+  }
+  img {
+    border-radius: 5px;
+  }
+}
+
 #products {
   padding: 120px 0 70px;
   background-color: var(--bg-blue-light);
@@ -527,6 +549,7 @@ svg path.bg-blue {
       padding: 30px;
       border-bottom-left-radius: 5px;
       border-bottom-right-radius: 5px;
+      height: 245px;
       h2 {
         font-size: 35px;
         margin-bottom: 15px;
@@ -534,9 +557,10 @@ svg path.bg-blue {
       }
       p {
         color: var(--color-primary-blue);
-        font-size: 19px;
+        font-size: 17px;
         line-height: 25px;
         font-weight: 500;
+        text-align: justify;
       }
     }
     &:hover {
@@ -791,6 +815,14 @@ html.swipebox-html.swipebox-touch{overflow:hidden!important}#swipebox-overlay im
   height: 460px;
   background: #eee;
   position: relative;
+  overflow: hidden;
+
+  iframe {
+    border: 0;
+    height: 630px;
+    position: relative;
+    top: -170px;
+  }
 
   .container {
     position: absolute;

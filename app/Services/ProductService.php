@@ -40,14 +40,14 @@ class ProductService
         $file_path = public_path('uploads/products/' . $name);
         $file_thumb_path = public_path('uploads/products/thumbs/' . $name);
 
-        Image::make($file_path)->fit(config('images.article.big_width'), config('images.article.big_height'))->save($file_path);
-        Image::make($file_path)->fit(600, 400)->save($file_thumb_path);
+        //Image::make($file_path)->fit(config('images.article.big_width'), config('images.article.big_height'))->save($file_path);
+        Image::make($file_path)->fit(340, 255)->save($file_thumb_path);
 
         // WebP
-        $file_path_webp = public_path('uploads/products/webp/' . $name_webp);
+        //$file_path_webp = public_path('uploads/products/webp/' . $name_webp);
         $file_thumb_path_webp = public_path('uploads/products/thumbs/webp/' . $name_webp);
 
-        Image::make($file_path)->encode('webp', 75)->save($file_path_webp);
+        //Image::make($file_path)->encode('webp', 75)->save($file_path_webp);
         Image::make($file_thumb_path)->encode('webp', 75)->save($file_thumb_path_webp);
 
         $model->update([

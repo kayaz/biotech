@@ -60,6 +60,9 @@ h3 {
   font-size: 24px;
   font-weight: 500;
 }
+.text-justify {
+  text-align: justify !important;
+}
 @media (min-width: 1530px) {
   .container {
     max-width: 1530px;
@@ -85,6 +88,9 @@ svg path.bg-green {
 }
 svg path.bg-blue {
   fill: var(--color-primary-blue);
+}
+section {
+  padding: 90px 0;
 }
 /* Fonty
 ================================================== */
@@ -655,6 +661,9 @@ header nav ul {
 }
 #team .person {
   margin-top: 80px;
+  border: 1px solid #e6e6e6;
+  padding: 20px 15px;
+  border-radius: 5px;
 }
 #team .person .hex {
   width: 190px;
@@ -724,6 +733,16 @@ header nav ul {
 #partners .partner {
   padding-top: 80px;
 }
+#products-header h2 {
+  font-size: 36px;
+}
+#products-header p {
+  font-size: 17px;
+  line-height: 31px;
+}
+#products-header img {
+  border-radius: 5px;
+}
 #products {
   padding: 120px 0 70px;
   background-color: var(--bg-blue-light);
@@ -759,6 +778,7 @@ header nav ul {
   padding: 30px;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
+  height: 245px;
 }
 #products .product .product-desc h2 {
   font-size: 35px;
@@ -767,9 +787,10 @@ header nav ul {
 }
 #products .product .product-desc p {
   color: var(--color-primary-blue);
-  font-size: 19px;
+  font-size: 17px;
   line-height: 25px;
   font-weight: 500;
+  text-align: justify;
 }
 #products .product:hover {
   bottom: 5px;
@@ -1442,6 +1463,13 @@ html.swipebox-html.swipebox-touch {
   height: 460px;
   background: #eee;
   position: relative;
+  overflow: hidden;
+}
+#map iframe {
+  border: 0;
+  height: 630px;
+  position: relative;
+  top: -170px;
 }
 #map .container {
   position: absolute;
