@@ -80,6 +80,10 @@ class AppServiceProvider extends ServiceProvider
         view()->composer('*', function ($view) {
             $view->with('current_locale', app()->getLocale());
             $view->with('available_locales', config('app.available_locales'));
+
+            // Fetch the product data and pass it to the view
+            $products = Product::select('name', 'slug')->get();
+            $view->with('menu_products', $products);
         });
 
         Image::observe(ImageObserver::class);

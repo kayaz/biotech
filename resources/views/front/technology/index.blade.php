@@ -12,7 +12,7 @@
                 <div class="col-6">
                     <div class="page-header-apla">
                         <h1>Technologia</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam congue feugiat tempor. Curabitur gravida odio nec velit interdum, nec condimentum orci pellentesque. Ut ac elit vel quam tempor dapibus ut id neque. Aliquam porttitor turpis imperdiet pretium accumsan. Praesent eget efficitur quam, vitae tristique nibh. Sed pharetra quis arcu ut viverra. Curabitur sit amet ex orci.</p>
+                        <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam congue feugiat tempor. Curabitur gravida odio nec velit interdum, nec condimentum orci pellentesque. Ut ac elit vel quam tempor dapibus ut id neque. Aliquam porttitor turpis imperdiet pretium accumsan. Praesent eget efficitur quam, vitae tristique nibh. Sed pharetra quis arcu ut viverra. Curabitur sit amet ex orci.</p>
                     </div>
                 </div>
             </div>
@@ -51,7 +51,7 @@
                 </div>
                 <div class="col-6 d-flex align-items-center">
                     <div class="tech-text ps-5">
-                        <p>Podstawą naszych zróżnicowanych produktów są zasoby naturalne. W naszym myśleniu i działaniu jesteśmy zaangażowani w gospodarkę o obiegu zamkniętym poprzez odpowiedzialne wykorzystanie odnawialnych zasobów pochodzenia roślinnego. Stale opracowujemy nowe produkty i receptury, które przyczyniają się do zielonej przyszłości dla różnych branż, takich jak: spożywcza, farmaceutyczna czy kosmetyczna.</p>
+                        <p class="text-justify">Podstawą naszych zróżnicowanych produktów są zasoby naturalne. W naszym myśleniu i działaniu jesteśmy zaangażowani w gospodarkę o obiegu zamkniętym poprzez odpowiedzialne wykorzystanie odnawialnych zasobów pochodzenia roślinnego. Stale opracowujemy nowe produkty i receptury, które przyczyniają się do zielonej przyszłości dla różnych branż, takich jak: spożywcza, farmaceutyczna czy kosmetyczna.</p>
                     </div>
                 </div>
             </div>
@@ -90,10 +90,10 @@
                 </div>
                 <div class="col-6 d-flex align-items-center">
                     <div class="tech-text pe-5">
-                        <p>Oferujemy produkty i zrównoważone rozwiązania dla branży „beauty”. Obsługujemy szeroką gamę rynków i zastosowań dzięki naszym innowacyjnym składnikom, technologiom i usługom. W naszym portfolio znajdują się składniki aktywne enkapsulowane w systemy dostarczania, znajdujące zastosowanie w kosmetykach do pielęgnacji, oczyszczania skóry, ochrony przeciwsłonecznej, kosmetyków kolorowych oraz pielęgnacji i oczyszczania włosów.</p>
+                        <p class="text-justify">Oferujemy produkty i zrównoważone rozwiązania dla branży „beauty”. Obsługujemy szeroką gamę rynków i zastosowań dzięki naszym innowacyjnym składnikom, technologiom i usługom. W naszym portfolio znajdują się składniki aktywne enkapsulowane w systemy dostarczania, znajdujące zastosowanie w kosmetykach do pielęgnacji, oczyszczania skóry, ochrony przeciwsłonecznej, kosmetyków kolorowych oraz pielęgnacji i oczyszczania włosów.</p>
                         <p>&nbsp;</p>
-                        <p>Oferujemy również rozwiązania w zakresie naturalnej konserwacji i stabilności produktu. Nasi klienci korzystający z naszego portfolio, mogą ulepszyć swoje produkty co wpłynie na poprawę funkcjonalności produktu.</p>
-                        <a href="" target="_blank" class="btn btn-theme btn-theme-blue btn-md mt-5">NASZE PRODUKTY</a>
+                        <p class="text-justify">Oferujemy również rozwiązania w zakresie naturalnej konserwacji i stabilności produktu. Nasi klienci korzystający z naszego portfolio, mogą ulepszyć swoje produkty co wpłynie na poprawę funkcjonalności produktu.</p>
+                        <a href="header.blade.php" class="btn btn-theme btn-theme-blue btn-md mt-5">NASZE PRODUKTY</a>
                     </div>
                 </div>
             </div>
