@@ -108,9 +108,9 @@
                     <h2>@lang('cms.our-product')</h2>
                 </div>
             </div>
-            <div id="productsCarousel" class="row">
+            <div id="productsCarousel" class="row m-0">
                 @foreach($products as $p)
-                    <div class="col-4">
+                    <div class="col-3">
                         <div class="product-container">
                             <a href="{{ route('products.show', $p->slug) }}">
                                 <div class="product">
@@ -161,10 +161,10 @@
 @push('scripts')
     <script src="{{ asset('/js/slick.min.js') }}" charset="utf-8"></script>
     <script type="text/javascript">
-        $('#productsCarousel').slick({
-            infinite: true,
-            slidesToShow: 4,
-            slidesToScroll: 1
-        });
+        // $('#productsCarousel').slick({
+        //     infinite: true,
+        //     slidesToShow: 4,
+        //     slidesToScroll: 1
+        // });
     </script>
 @endpush
