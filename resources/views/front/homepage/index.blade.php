@@ -8,11 +8,10 @@
                 <div class="col-6 d-flex align-items-center">
                     <div class="slider-apla pe-5">
                         <h1>
-                            <span class="text-green">Bioprzyszłość</span>
-                            <span class="text-blue">zaczyna się u nas</span>
+                            <span class="text-green">Holistyczna nanotechnologia</span>
+                            <span class="text-blue">dla pięknej i zdrowej skóry</span>
                         </h1>
-                        <p class="mt-4">InventionBio to firma biotechnologiczna z wysokim potencjałem na bycie największą biorafinerią w Polsce. Tworzy ją młody, dynamiczny zespół, w którego skład wchodzą biotechnolodzy, mikrobiolodzy, chemicy i biochemicy.</p>
-                        <a href="" class="btn btn-theme btn-theme-blue btn-md mt-5">DOWIEDZ SIĘ WIĘCEJ</a>
+                        <p class="mt-4">Nasze systemy dostarczania zostały stworzone w laboratoriach badawczych firmy InventionBio S.A. Nieustannie przesuwamy granice w rozwoju i wytwarzaniu nanonośników, koncentrując się na większej innowacyjności, wydajności i zrównoważonym rozwoju. Nasze rosnące portfolio i szeroka, silna sieć łącząca nasz dział badawczo-rozwojowy z naukowcami i uczelniami z całego świata stanowią podstawę naszego potencjału innowacyjnego. Dla nas innowacja oznacza jednak znacznie więcej niż jedynie tworzenie nowoczesnych materiałów czy produktów.</a>
                     </div>
                 </div>
                 <div class="col-6 d-flex align-items-center">
@@ -68,7 +67,7 @@
                 <div class="col-6 d-flex align-items-center justify-content-center">
                     <div class="ps-5 pe-5">
                         <h2 class="text-blue">Produkujemy w zgodzie ze standardem <span class="text-green">GMP+</span></h2>
-                        <p class="mt-4">GMP+ (Good Manufacturing Practice) oznacza dobrą praktykę produkcyjną oraz jej połączenie z systemem HACCP.  Standard GMP+ ma za zadanie zapewnienie bezpieczeństwa pasz na każdym etapie ich produkcji. Dzięki certyfikatowi GMP+ każdy kontrahent otrzyma potwierdzenie, że produkowane przez nas pasze nie stanowią zagrożenia dla zwierząt oraz ludzi.</p>
+                        <p class="mt-4"><b>GMP+ (Good Manufacturing Practice)</b> oznacza dobrą praktykę produkcyjną oraz jej połączenie z systemem HACCP. Dobra Praktyka Wytwarzania zapewnia kontrolę produkcji oraz zgodne przechowywanie produktów z ustalonymi standardami. Dzięki temu nasze produkty są bezpieczne do stosowania.</p>
                     </div>
                 </div>
             </div>
@@ -76,7 +75,7 @@
     </div>
 
 
-    <div id="features">
+    <div id="features" class="d-none">
         <div class="container">
             <div class="row">
                 @foreach($boxes as $b)
@@ -101,7 +100,7 @@
         </div>
     </div>
 
-    <div id="products" class="bg-blue-light">
+    <div id="products">
         <div class="container">
             <div class="row">
                 <div class="col-12">

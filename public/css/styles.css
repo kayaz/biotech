@@ -43,7 +43,7 @@ p,
   margin: 0;
   font-size: 18px;
   line-height: 31px;
-  color: #4f4f4f;
+  color: #333;
 }
 h4 i {
   color: var(--color-primary);
@@ -394,7 +394,7 @@ section {
   height: 760px;
 }
 #slider h1 {
-  font-size: 72px;
+  font-size: 58px;
   font-weight: 700 ;
 }
 /* Header
@@ -785,8 +785,7 @@ header nav ul {
 }
 #products {
   padding: 120px 0 70px;
-  background-color: var(--bg-blue-light);
-  background-image: url('../images/blue-light-bgl.png'), url('../images/blue-light-bgr.png');
+  background-color: #fff;
   background-repeat: no-repeat, no-repeat;
   background-position: left top, right top;
   overflow: hidden;
