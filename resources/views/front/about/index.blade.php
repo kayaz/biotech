@@ -120,66 +120,30 @@
         </div>
     </div>
 
-    <div id="team">
+    <div id="gallery">
+        <div class="gallery-top">
+            <h2>Nasze laboratorium</h2>
+        </div>
         <div class="container">
-            <div class="row">
-                <div class="col-12 text-center text-blue">
-                    <h2>Kim <span class="text-green">jesteśmy</span>?</h2>
-                </div>
-            </div>
             <div class="row justify-content-center">
-                <div class="col-8 text-center pt-4">
-                    <p>Pasjonatami nauki, stale pogłębiającymi swoją wiedzę w dziedzinie biotechnologii, kosmetologii i żywienia zwierząt. Większość z nas ma na swoim koncie serię publikacji w międzynarodowych czasopismach naukowych. Jesteśmy autorami wielu patentów, wielokrotnie braliśmy też udział w krajowych i zagranicznych konferencjach i targach naukowych.</p>
-                </div>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-3">
-                    <div class="person text-center">
-                        <span>prof. dr hab. inż.</span>
-                        <h3>Marcin Łukaszewicz</h3>
-                        <p>(Prezes Zarządu)</p>
-                    </div>
-                </div>
-                <div class="col-3">
-                    <div class="person text-center">
-                        <span>dr</span>
-                        <h3>Agnieszka Lewińska</h3>
-                        <p>(Dyrektor R&D)</p>
-                    </div>
-                </div>
-                <div class="col-3">
-                    <div class="person text-center">
-                        <span>dr inż.</span>
-                        <h3>Marta Domżał-Kędzia</h3>
-                        <p>(Kierownik R&D)</p>
-                    </div>
-                </div>
-                <div class="col-3">
-                    <div class="person text-center">
-                        <span>dr</span>
-                        <h3>Anna Filipiak-Szok</h3>
-                        <p>(Kierownik Laboratorium)</p>
-                    </div>
-                </div>
-                <div class="col-3">
-                    <div class="person text-center">
-                        <span>mgr</span>
-                        <h3>Fabian Kuczyński</h3>
-                        <p>(Kierownik Produkcji)</p>
-                    </div>
-                </div>
-                <div class="col-3">
-                    <div class="person text-center">
-                        <span>mgr</span>
-                        <h3>Magdalena Baranowska</h3>
-                        <p>(Pełnomocnik ds. GMP+ i Jakości / Kierownik Zespołu ds. Bezpieczeństwa Żywności)</p>
-                    </div>
-                </div>
-                <div class="col-3">
-                    <div class="person text-center">
-                        <span>mgr</span>
-                        <h3>Monika Ostrowska</h3>
-                        <p>(Specjalista ds. biotechnologii / Koordynator badań aplikacyjnych)</p>
+                <div class="col-9">
+                    <div class="gallery-content">
+                        <ul class="mb-0 list-unstyled">
+                            @foreach($images as $i)
+                                <li>
+                                    @if($i->url)
+                                        <a href="{{ $i->url }}" class="swipebox swipeboxvideo">
+                                            <span class="gallery-play"><i class="las la-play"></i></span>
+                                            <img src="{{ asset('/uploads/gallery/images/webp/'.$i->file_webp) }}" alt="{{ $i->file_alt }}">
+                                        </a>
+                                    @else
+                                        <a href="{{ asset('/uploads/gallery/images/webp/'.$i->file_webp) }}" class="swipebox">
+                                            <img src="{{ asset('/uploads/gallery/images/webp/'.$i->file_webp) }}" alt="{{ $i->file_alt }}">
+                                        </a>
+                                    @endif
+                                </li>
+                            @endforeach
+                        </ul>
                     </div>
                 </div>
             </div>

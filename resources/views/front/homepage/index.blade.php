@@ -74,7 +74,6 @@
         </div>
     </div>
 
-
     <div id="features" class="d-none">
         <div class="container">
             <div class="row">
