@@ -433,6 +433,9 @@ header #header.fixed {
 header #header.fixed nav li {
   height: 70px;
 }
+header #header.fixed nav li ul li {
+  height: auto;
+}
 header #header.fixed #logo img {
   height: 70px;
 }
@@ -451,6 +454,7 @@ header nav li ul.submenu {
   justify-content: start;
   padding: 0 20px;
   display: none;
+  z-index: 10;
 }
 header nav li ul.submenu:after {
   bottom: 100%;

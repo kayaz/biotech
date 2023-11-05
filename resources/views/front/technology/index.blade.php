@@ -107,7 +107,7 @@
                     </div>
                 </div>
                 @foreach($products as $item => $p)
-                    <div class="row {{ $loop->even ? 'flex-row-reverse' : '' }} mt-5 @if($item > 0) pt-5 @endif">
+                    <div id="{{$p->slug}}" class="row {{ $loop->even ? 'flex-row-reverse' : '' }} mt-5 @if($item > 0) pt-5 @endif">
                         <div class="col-6 d-flex align-items-center">
                             <div class="product-text">
                                 <h2 class="text-blue mb-4">{{ $p->name }}</h2>

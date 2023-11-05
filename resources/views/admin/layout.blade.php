@@ -92,7 +92,7 @@
                             <a href="{{ route('admin.article.index') }}">
                                 <span class="menu-bullet">
                                     <span class="bullet bullet-dot"></span>
-                                </span> Aktualnosci</a>
+                                </span> Nauka</a>
                         </li>
 
                         <li {{ Request::routeIs('admin.clients.*') ? 'class=active' : '' }}>
@@ -106,7 +106,7 @@
                             <a href="{{ route('admin.product.index') }}">
                                 <span class="menu-bullet">
                                     <span class="bullet bullet-dot"></span>
-                                </span> Produkty</a>
+                                </span> Technologia</a>
                         </li>
 
                     </ul>

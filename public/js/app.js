@@ -57,6 +57,13 @@ function closeNav() {
     document.getElementById("sidemenu").style.marginLeft = "0";
 }
 
+const uri = window.location.toString();
+if (uri.indexOf("#") > 0) {
+    const clean_uri = uri.substring(0, uri.indexOf("#"));
+    window.history.replaceState({},
+        document.title, clean_uri);
+}
+
 $(document).ready(function(){
 
 // Menu

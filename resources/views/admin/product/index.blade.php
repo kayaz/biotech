@@ -5,10 +5,10 @@
         <div class="card-head container-fluid">
             <div class="row">
                 <div class="col-6 pl-0">
-                    <h4 class="page-title"><i class="fe-droplet"></i>Produkty</h4>
+                    <h4 class="page-title"><i class="fe-droplet"></i>Technologia</h4>
                 </div>
                 <div class="col-6 d-flex justify-content-end align-items-center form-group-submit">
-                    <a href="{{route('admin.product.create')}}" class="btn btn-primary">Dodaj produkt</a>
+                    <a href="{{route('admin.product.create')}}" class="btn btn-primary">Dodaj</a>
                 </div>
             </div>
         </div>
@@ -57,7 +57,7 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-12 d-flex justify-content-end">
-                    <a href="{{route('admin.product.create')}}" class="btn btn-primary">Dodaj produkt</a>
+                    <a href="{{route('admin.product.create')}}" class="btn btn-primary">Dodaj</a>
                 </div>
             </div>
         </div>

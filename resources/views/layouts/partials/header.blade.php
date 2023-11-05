@@ -16,14 +16,22 @@
                         </li>
                         <li class="nav-menu-item">
                             <a href="{{ route('technology') }}">@lang('cms.menu-technology')</a>
+                            @if (Route::currentRouteName() == 'technology')
+                                <ul class="submenu mb-0 list-unstyled">
+                                    @foreach($menu_products as $mp)
+                                        <li><a href="#{{$mp->slug}}" class="btn-scroll">{{ $mp->name }}</a></li>
+                                    @endforeach
+                                </ul>
+                            @else
+                                <ul class="submenu mb-0 list-unstyled">
+                                    @foreach($menu_products as $mp)
+                                        <li><a href="{{ route('technology') }}#{{$mp->slug}}">{{ $mp->name }}</a></li>
+                                    @endforeach
+                                </ul>
+                            @endif
                         </li>
                         <li class="nav-menu-item">
                             <a href="{{ route('products.index') }}">@lang('cms.menu-products')</a>
-                            <ul class="submenu mb-0 list-unstyled">
-                                @foreach($menu_products as $mp)
-                                    <li><a href="{{ route('products.show', $mp->slug) }}">{{ $mp->name }}</a></li>
-                                @endforeach
-                            </ul>
                         </li>
                         <li class="nav-menu-item">
                             <a href="{{ route('front.news.index') }}">@lang('cms.menu-news')</a>
