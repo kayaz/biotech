@@ -227,6 +227,6 @@
 @endsection
 @push('scripts')
     <script type="text/javascript">
-
+        $(".gallery-content ul").responsiveSlides({auto:true, pager:false, nav:true, timeout:5000, random:false, speed: 500});
     </script>
 @endpush
