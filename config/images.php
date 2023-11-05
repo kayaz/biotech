@@ -139,8 +139,8 @@ return [
     */
 
     'gallery' => [
-        'big_width' => 1360,
-        'big_height' => 765,
+        'big_width' => 1280,
+        'big_height' => 720,
         'thumb_width' => 676,
         'thumb_height' => 507,
         'thumb_width_2' => 386,
