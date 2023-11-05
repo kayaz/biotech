@@ -515,9 +515,9 @@ section {
 }
 
 #products {
-  padding: 120px 0 70px;
-  background-color: #fff;
-  //background-image: url('../images/blue-light-bgl.png'), url('../images/blue-light-bgr.png');
+  padding: 80px 0 100px;
+  background-color: var(--bg-blue-light);
+  background-image: url('../images/blue-light-bgl.png'), url('../images/blue-light-bgr.png');
   background-repeat: no-repeat, no-repeat;
   background-position: left top, right top;
   overflow: hidden;
@@ -529,6 +529,24 @@ section {
 
   .product-container {
     padding: 0 10px 50px;
+  }
+
+  .product-text {
+    padding: 30px 40px 35px;
+    background: white;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 5px 5px -3px rgba(0,0,0,0.19);
+    -moz-box-shadow: 0 5px 5px -3px rgba(0,0,0,0.19);
+    box-shadow: 0 5px 5px -3px rgba(0,0,0,0.19);
+
+    h2 {
+      border-bottom: 1px solid #72b73a;
+      padding-bottom: 20px;
+    }
+  }
+
+  .product-img img {
+    border-radius: 5px;
   }
 
   .product {

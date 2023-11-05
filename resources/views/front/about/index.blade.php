@@ -214,32 +214,47 @@
             <div class="row">
                 <div class="col-4 justify-content-center align-items-center d-flex">
                     <div class="partner">
-                        <img src="https://placehold.co/400x100" alt="">
+                        <img src="{{ asset('/images/partnerzy/napoli-federico-2.jpg') }}" alt="Università degli Studi di Napoli Federico II" width="400" height="118">
                     </div>
                 </div>
                 <div class="col-4 justify-content-center align-items-center d-flex">
                     <div class="partner">
-                        <img src="https://placehold.co/400x100" alt="">
+                        <img src="{{ asset('/images/partnerzy/uw-logo.jpg') }}" alt="Uniwersytet Wrocławski" width="400" height="118">
                     </div>
                 </div>
                 <div class="col-4 justify-content-center align-items-center d-flex">
                     <div class="partner">
-                        <img src="https://placehold.co/400x100" alt="">
+                        <img src="{{ asset('/images/partnerzy/uw-warszawa.jpg') }}" alt="Uniwersytet Warszawski" width="400" height="118">
                     </div>
                 </div>
                 <div class="col-4 justify-content-center align-items-center d-flex">
                     <div class="partner">
-                        <img src="https://placehold.co/400x100" alt="">
+                        <img src="{{ asset('/images/partnerzy/uoh-logo.jpg') }}" alt="University of Hohenheim" width="400" height="118">
                     </div>
                 </div>
                 <div class="col-4 justify-content-center align-items-center d-flex">
                     <div class="partner">
-                        <img src="https://placehold.co/400x100" alt="">
+                        <img src="{{ asset('/images/partnerzy/up-lublin.jpg') }}" alt="Uniwersytet Przyrodniczy w Lublinie" width="400" height="118">
                     </div>
                 </div>
                 <div class="col-4 justify-content-center align-items-center d-flex">
                     <div class="partner">
-                        <img src="https://placehold.co/400x100" alt="">
+                        <img src="{{ asset('/images/partnerzy/udp-logo.jpg') }}" alt="Università degli Studi di Pavia" width="400" height="118">
+                    </div>
+                </div>
+                <div class="col-4 justify-content-center align-items-center d-flex">
+                    <div class="partner">
+                        <img src="{{ asset('/images/partnerzy/parp-logo.jpg') }}" alt="Polska Agencja Rozwoju Przedsiębiorczości" width="400" height="118">
+                    </div>
+                </div>
+                <div class="col-4 justify-content-center align-items-center d-flex">
+                    <div class="partner">
+                        <img src="{{ asset('/images/partnerzy/ncbr-logo.jpg') }}" alt="Narodowe Centrum Badań i Rozwoju" width="400" height="118">
+                    </div>
+                </div>
+                <div class="col-4 justify-content-center align-items-center d-flex">
+                    <div class="partner">
+                        <img src="{{ asset('/images/partnerzy/ef-eu-logo.jpg') }}" alt="European Funds / European Union" width="400" height="118">
                     </div>
                 </div>
             </div>

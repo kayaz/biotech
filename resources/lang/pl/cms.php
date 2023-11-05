@@ -13,5 +13,6 @@ return array (
     'form-label-message' => 'Treść wiadomości',
     'form-submit-button' => 'Wyślij wiadomość',
     'footer-text' => 'Tekst w stopce PL',
-    'our-product' => 'Nasze produkty'
+    'our-product' => 'Nasze produkty',
+    'our-technology' => 'Nasze <span class="text-green">technologie</span>'
 );
