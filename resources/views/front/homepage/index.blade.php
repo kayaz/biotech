@@ -130,11 +130,11 @@
 
     <div id="gallery">
         <div class="gallery-top">
-            <h2>Nasze laboratorium</h2>
+            <h2>Bio Rafineria</h2>
         </div>
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-10">
+                <div class="col-9">
                     <div class="gallery-content">
                         <ul class="mb-0 list-unstyled">
                             @foreach($images as $i)
