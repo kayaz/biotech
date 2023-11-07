@@ -35,7 +35,7 @@
                             </defs>
 
                             <g clip-path="url(#maskImage)">
-                                <image width="auto" height="100%" x="0" y="0" fill="none" href="{{ asset('/images/big-hex-bg.jpg') }}" />
+                                <image width="auto" height="100%" x="0" y="0" fill="none" href="{{ asset('/images/big-hex-bg-3.jpg') }}" />
                             </g>
                         </svg>
 
