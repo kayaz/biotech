@@ -11,6 +11,7 @@ use App\Models\Page;
 use App\Models\Product;
 use App\Models\Settings;
 use App\Models\Slider;
+use App\Models\Technology;
 use App\Models\Url;
 use App\Models\Boxes;
 
@@ -84,6 +85,10 @@ class AppServiceProvider extends ServiceProvider
             // Fetch the product data and pass it to the view
             $products = Product::select('name', 'slug')->get();
             $view->with('menu_products', $products);
+
+            // Fetch the product data and pass it to the view
+            $technology = Technology::select('name', 'slug')->get();
+            $view->with('menu_technology', $technology);
         });
 
         Image::observe(ImageObserver::class);

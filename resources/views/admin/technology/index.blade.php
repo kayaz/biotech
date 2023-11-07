@@ -5,10 +5,10 @@
         <div class="card-head container-fluid">
             <div class="row">
                 <div class="col-6 pl-0">
-                    <h4 class="page-title"><i class="fe-hard-drive"></i>Produkty</h4>
+                    <h4 class="page-title"><i class="fe-droplet"></i>Technologia</h4>
                 </div>
                 <div class="col-6 d-flex justify-content-end align-items-center form-group-submit">
-                    <a href="{{route('admin.product.create')}}" class="btn btn-primary">Dodaj</a>
+                    <a href="{{route('admin.technology.create')}}" class="btn btn-primary">Dodaj</a>
                 </div>
             </div>
         </div>
@@ -18,8 +18,8 @@
                     <table class="table mb-0">
                         <thead class="thead-default">
                         <tr>
-                            <th>Nazwa produktu</th>
-                            <th>Opis produktu</th>
+                            <th>Nazwa</th>
+                            <th>Opis</th>
                             <th>Data dodania</th>
                             <th>Data modyfikacji</th>
                             <th></th>
@@ -34,11 +34,11 @@
                                 <td>{{ $item->updated_at }}</td>
                                 <td class="option-120">
                                     <div class="btn-group">
-                                        <a href="{{route('admin.product.edit', [$item->id, 'lang' => 'en'])}}" class="btn action-button lang-button me-1" data-toggle="tooltip" data-placement="top" title="Edytuj"><img src="{{ asset('/cms/flags/en.png') }}" alt="Tłumaczenie: en"></a>
+                                        <a href="{{route('admin.technology.edit', [$item->id, 'lang' => 'en'])}}" class="btn action-button lang-button me-1" data-toggle="tooltip" data-placement="top" title="Edytuj"><img src="{{ asset('/cms/flags/en.png') }}" alt="Tłumaczenie: en"></a>
 
-                                        <a href="{{route('admin.product.edit', $item->id)}}" class="btn action-button me-1" data-bs-toggle="tooltip" data-placement="top" data-bs-title="Edytuj wpis"><i class="fe-edit"></i></a>
+                                        <a href="{{route('admin.technology.edit', $item->id)}}" class="btn action-button me-1" data-bs-toggle="tooltip" data-placement="top" data-bs-title="Edytuj wpis"><i class="fe-edit"></i></a>
 
-                                        <form method="POST" action="{{route('admin.product.destroy', $item->id)}}">
+                                        <form method="POST" action="{{route('admin.technology.destroy', $item->id)}}">
                                             {{ csrf_field() }}
                                             {{ method_field('DELETE') }}
                                             <button type="submit" class="btn action-button confirm" data-bs-toggle="tooltip" data-placement="top" data-bs-title="Usuń wpis" data-id="{{ $item->id }}"><i class="fe-trash-2"></i></button>
@@ -57,7 +57,7 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-12 d-flex justify-content-end">
-                    <a href="{{route('admin.product.create')}}" class="btn btn-primary">Dodaj</a>
+                    <a href="{{route('admin.technology.create')}}" class="btn btn-primary">Dodaj</a>
                 </div>
             </div>
         </div>

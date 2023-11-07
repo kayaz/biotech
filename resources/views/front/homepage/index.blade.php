@@ -108,8 +108,8 @@
             </div>
             <div id="productsCarousel" class="row m-0">
                 @foreach($products as $p)
-                    <div class="col-3">
-                        <div class="product-container">
+                    <div class="col-4">
+                        <div class="product-container pb-2">
                             <a href="{{ route('products.show', $p->slug) }}">
                                 <div class="product">
                                     <img src="{{ asset('/uploads/products/thumbs/'.$p->file) }}" alt="{{ $p->file_alt }}">
@@ -159,10 +159,10 @@
 @push('scripts')
     <script src="{{ asset('/js/slick.min.js') }}" charset="utf-8"></script>
     <script type="text/javascript">
-        // $('#productsCarousel').slick({
-        //     infinite: true,
-        //     slidesToShow: 4,
-        //     slidesToScroll: 1
-        // });
+        $('#productsCarousel').slick({
+            infinite: true,
+            slidesToShow: 3,
+            slidesToScroll: 1
+        });
     </script>
 @endpush

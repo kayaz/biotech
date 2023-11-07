@@ -35,7 +35,8 @@ Route::group([
         'galleryVideo' => 'Gallery\VideoController',
         'slider' => 'Slider\IndexController',
         'box'=> 'Box\IndexController',
-        'product'=> 'Product\IndexController'
+        'product'=> 'Product\IndexController',
+        'technology'=> 'Technology\IndexController'
     ]);
 
     Route::get('dictionary/{slug}/{locale}/edit', 'Dictionary\IndexController@edit')->name('dictionary.edit');

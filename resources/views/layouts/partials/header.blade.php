@@ -18,13 +18,13 @@
                             <a href="{{ route('technology') }}">@lang('cms.menu-technology')</a>
                             @if (Route::currentRouteName() == 'technology')
                                 <ul class="submenu mb-0 list-unstyled">
-                                    @foreach($menu_products as $mp)
+                                    @foreach($menu_technology as $mp)
                                         <li><a href="#{{$mp->slug}}" class="btn-scroll">{{ $mp->name }}</a></li>
                                     @endforeach
                                 </ul>
                             @else
                                 <ul class="submenu mb-0 list-unstyled">
-                                    @foreach($menu_products as $mp)
+                                    @foreach($menu_technology as $mp)
                                         <li><a href="{{ route('technology') }}#{{$mp->slug}}">{{ $mp->name }}</a></li>
                                     @endforeach
                                 </ul>

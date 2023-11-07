@@ -111,8 +111,7 @@
                         <div class="col-6 d-flex align-items-center">
                             <div class="product-text">
                                 <h2 class="text-blue mb-4">{{ $p->name }}</h2>
-                                <p class="text-justify"><b>{{ $p->desc }}</b></p>
-                                <div class="text-justify mt-4">
+                                <div class="text-justify">
                                     {!! $p->text !!}
                                 </div>
                             </div>

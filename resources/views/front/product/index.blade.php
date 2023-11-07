@@ -9,7 +9,7 @@
 @stop
 
 @section('content')
-    <section id="products-header">
+     <section id="products-header" class="d-none">
         <div class="container">
             <div class="row">
                 <div class="col-6 d-flex align-items-center">
@@ -38,7 +38,7 @@
         <div class="container">
             <div class="row">
                 @foreach($products as $p)
-                    <div class="col-3">
+                    <div class="col-4 mb-5">
                         <div class="product-container">
                             <a href="{{ route('products.show', $p->slug) }}">
                                 <div class="product">

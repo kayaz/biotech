@@ -7,7 +7,6 @@ use App\Http\Requests\ProductFormRequest;
 use App\Models\Product;
 use App\Repositories\ProductRepository;
 use App\Services\ProductService;
-use Illuminate\Http\Request;
 
 class IndexController extends Controller
 {
