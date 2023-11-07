@@ -6,14 +6,14 @@ use App\Http\Controllers\Controller;
 
 //CMS
 use App\Models\Page;
-use App\Models\Product;
+use App\Models\Technology;
 
 class IndexController extends Controller
 {
     public function index()
     {
         $page = Page::find(3);
-        $products = Product::orderBy('sort', 'ASC')->get();
+        $products = Technology::orderBy('sort', 'ASC')->get();
 
         return view('front.technology.index')->with([
             'page' => $page,
