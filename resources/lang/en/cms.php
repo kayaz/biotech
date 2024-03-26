@@ -14,5 +14,6 @@ return array (
     'form-submit-button' => 'Wyślij wiadomość',
     'footer-text' => 'Tekst w stopce EN',
     'our-product' => 'Nasze produkty',
-    'our-technology' => 'Nasze <span class="text-green">technologie</span>'
+    'our-technology' => 'Nasze <span class="text-green">technologie</span>',
+    'privacy-policy' => 'Polityka prywatności'
 );

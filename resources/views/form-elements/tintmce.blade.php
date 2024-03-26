@@ -7,7 +7,7 @@
         skin: "oxide",
         content_css: 'default',
         branding: false,
-        height: 400,
+        height: 800,
         plugins: [
             "code advlist autolink link image lists charmap print preview hr anchor pagebreak",
             "searchreplace wordcount visualblocks visualchars insertdatetime media nonbreaking",

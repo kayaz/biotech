@@ -1,14 +1,17 @@
 <header>
     <div id="header" class="container-fluid">
         <div class="row no-gutters">
-            <div class="col-4">
+            <div class="col-2">
                 <div id="logo">
                     <a href="/" title="{{ settings()->get("page_logo_title") }}z">
                         <img src="{{ asset('/images/logo.png') }}" alt="{{ settings()->get("page_logo_alt") }}">
                     </a>
                 </div>
             </div>
-            <div class="col-8 p-0">
+            <div class="col-1 d-flex justify-content-center align-items-center">
+                <img src="{{ asset('images/logo_UE_rgb-1.jpg') }}" alt="Unia Europejska">
+            </div>
+            <div class="col-9 p-0">
                 <nav>
                     <ul class="mb-0 list-unstyled">
                         <li class="nav-menu-item">

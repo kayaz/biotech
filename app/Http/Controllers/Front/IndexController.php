@@ -8,6 +8,7 @@ use App\Http\Controllers\Controller;
 use App\Models\Article;
 use App\Models\Boxes;
 use App\Models\Inline;
+use App\Models\Page;
 use App\Models\Product;
 use App\Models\Slider;
 use App\Models\Image;
@@ -30,5 +31,11 @@ class IndexController extends Controller
             'images' => $images,
             'products' => $products
             ]);
+    }
+
+    public function privacypolicy()
+    {
+        $page = Page::find(6);
+        return view('front.privacypolicy.index', ['page' => $page]);
     }
 }

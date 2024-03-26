@@ -1,3 +1,11 @@
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-12 col-lg-9">
+            <img src="{{ asset('images/FE_POIR_poziom_pl-1_rgb.jpg') }}" alt="Fundusz Regionalny">
+        </div>
+    </div>
+</div>
+
 <footer>
     <div id="footer">
         <div class="container h-100">
@@ -45,6 +53,7 @@
             <div class="row d-flex justify-content-center">
                 <div class="col-8 text-center">
                     <p>@lang('cms.footer-text')</p>
+                    <p class="small"><a href="{{ route('privacy-policy') }}">@lang('cms.privacy-policy')</a></p>
                 </div>
             </div>
         </div>

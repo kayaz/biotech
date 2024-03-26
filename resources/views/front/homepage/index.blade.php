@@ -15,7 +15,12 @@
                     </div>
                 </div>
                 <div class="col-6 d-flex align-items-center">
-                    <img src="https://placehold.co/650x650" alt="">
+                    <div class="video-container">
+                        <video autoplay muted loop>
+                            <source src="{{ asset('uploads/files/movie.mp4') }}" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
                 </div>
             </div>
         </div>
