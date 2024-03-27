@@ -52,7 +52,7 @@
         <div class="container">
             <div class="row d-flex justify-content-center">
                 <div class="col-8 text-center">
-                    <p>@lang('cms.footer-text')</p>
+                    <p class="small">@lang('cms.footer-text')</p>
                     <p class="small"><a href="{{ route('privacy-policy') }}">@lang('cms.privacy-policy')</a></p>
                 </div>
             </div>
